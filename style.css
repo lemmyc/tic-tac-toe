@@ -121,6 +121,7 @@ body{
     flex-direction: column;
     color: white;
     font-size: 4rem;
+    text-align: center;
 }
 .winning-msg-desc{
     font-size: 3rem;
