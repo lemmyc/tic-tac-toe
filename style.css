@@ -42,6 +42,7 @@ body{
     cursor: pointer;
     border: none;
     border: 1px solid transparent;
+    font-family: 'Fira Sans Condensed', sans-serif;
 }
 #ez-btn{
     background-color: #3498db;
