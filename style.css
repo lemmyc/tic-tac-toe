@@ -32,6 +32,44 @@ body{
     align-items: center;
     grid-template-columns: repeat(3, auto);
 }
+.diff-select{
+    margin-top: .5em;
+    display: flex;
+    justify-content: space-between;
+}
+.diff-btn{
+    padding: .5em .75em;
+    cursor: pointer;
+    border: none;
+    border: 1px solid transparent;
+}
+#ez-btn{
+    background-color: #3498db;
+    color: white;
+}
+#ez-btn:hover{
+    border-color: #3498db;
+    background-color: white;
+    color: black;
+}
+#med-btn{
+    background-color: #e74c3c;
+    color: white;
+}
+#med-btn:hover{
+    border-color: #e74c3c;
+    background-color: white;
+    color: black;
+}
+#exp-btn{
+    background-color: #8e44ad;
+    color: white;
+}
+#exp-btn:hover{
+    border-color: #8e44ad;
+    background-color: white;
+    color: black;
+}
 .cell{
     width: var(--cell-size);
     height: var(--cell-size);
