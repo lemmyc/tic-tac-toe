@@ -120,11 +120,14 @@ body{
     justify-content: center;
     flex-direction: column;
     color: white;
-    font-size: 5rem;
+    font-size: 4rem;
+}
+.winning-msg-desc{
+    font-size: 3rem;
 }
 #restart-btn{
     font-size: 3rem;
-    margin-top: 3em;
+    margin-top: 2em;
     border: 1px solid white;
     background-color: transparent;
     padding: .25em .5em;
