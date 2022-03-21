@@ -32,6 +32,9 @@ body{
     align-items: center;
     grid-template-columns: repeat(3, auto);
 }
+.difficulty{
+    min-width: 280px;
+}
 .diff-select{
     margin-top: .5em;
     display: flex;
@@ -41,35 +44,31 @@ body{
     padding: .5em .75em;
     cursor: pointer;
     border: none;
-    border: 1px solid transparent;
+    border: 3px solid transparent;
     font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 1rem;
+    border-radius: 5px;
 }
 #ez-btn{
     background-color: #3498db;
     color: white;
 }
 #ez-btn:hover{
-    border-color: #3498db;
-    background-color: white;
-    color: black;
+    background-color: #56afeb;
 }
 #med-btn{
-    background-color: #e74c3c;
+    background-color: #f39c12;
     color: white;
 }
 #med-btn:hover{
-    border-color: #e74c3c;
-    background-color: white;
-    color: black;
+    background-color: #eeb65b;
 }
 #exp-btn{
-    background-color: #8e44ad;
+    background-color: #e74c3c;
     color: white;
 }
 #exp-btn:hover{
-    border-color: #8e44ad;
-    background-color: white;
-    color: black;
+    background-color: rgb(245, 123, 109);
 }
 .cell{
     width: var(--cell-size);

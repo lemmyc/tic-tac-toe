@@ -37,12 +37,12 @@ restartBtn.addEventListener('click', startGame);
 
 
 function ezMode(){
-    maxDepth = 1;
+    maxDepth = 3;
     startGame();
     diffEle.innerHTML = `Current Difficulty: Easy`
 }
 function medMode(){
-    maxDepth = 3;
+    maxDepth = 1;
     startGame();
     diffEle.innerHTML = `Current Difficulty: Medium`
 }
