@@ -93,7 +93,7 @@ function endGame(draw){
     if(draw){
         winningMsg.style.color = "#f39c12"
         winningMsg.innerHTML = `<h1>Game Draw</h1>`
-        winningMsgDesc.innerHTML = `<span>GGWP guys`;   
+        winningMsgDesc.innerHTML = `<span>Good game !</span>`;   
 
     }else{
         oTurn ? winningMsg.style.color = "#e74c3c" : winningMsg.style.color = "#3498db"
