@@ -42,12 +42,12 @@ function ezMode(){
     diffEle.innerHTML = `Current Difficulty: Easy`
 }
 function medMode(){
-    maxDepth = 1;
+    maxDepth = 5;
     startGame();
     diffEle.innerHTML = `Current Difficulty: Medium`
 }
 function expMode(){
-    maxDepth = 5;
+    maxDepth = 7;
     startGame();
     diffEle.innerHTML = `Current Difficulty: Expert`
 
@@ -134,7 +134,7 @@ function checkWin(currentClass){
         })
     })
 }
-async function botMove(){
+function botMove(){
     let bestScore = -1000;
     let bestMove = 4;
     let index = 0;
